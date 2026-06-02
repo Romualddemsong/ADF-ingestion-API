@@ -1,0 +1,2 @@
+schema_name: 'mimic_catalog'
+raw_data_location: 'abfss://trainingmimicds@trainingstrgnew.dfs.core.windows.net/landing'
