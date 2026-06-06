@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "valaxy-adf"
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"adv_gen2_accountKey": {
+			"value": ""
+		},
+		"az_adls_gen2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://valaxystrgaccv2.dfs.core.windows.net/"
+		},
+		"adv_gen2_properties_typeProperties_url": {
+			"value": "https://valaxystrgaccv2.dfs.core.windows.net/"
+		},
+		"az_adls_gen2_properties_typeProperties_url": {
+			"value": "https://valaxystrgaccv2.dfs.core.windows.net/"
+		},
+		"az_kv_properties_typeProperties_baseUrl": {
+			"value": "https://valaxy-kv.vault.azure.net/"
+		},
+		"ds_azsql_inc_properties_typeProperties_server": {
+			"value": "valaxy-training.database.windows.net"
+		},
+		"ds_azsql_inc_properties_typeProperties_database": {
+			"value": "free-sql-db-0140331"
+		},
+		"ds_azsql_inc_properties_typeProperties_userName": {
+			"value": "valaxy-training"
+		}
+	}
+}
