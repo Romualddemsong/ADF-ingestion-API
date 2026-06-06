@@ -1,0 +1,15 @@
+{
+	"name": "valaxy-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "073e364d-6d7b-424d-97df-30748304d74e",
+		"tenantId": "573aa466-4a8f-48b6-9a65-961f4f5f7565"
+	}
+}

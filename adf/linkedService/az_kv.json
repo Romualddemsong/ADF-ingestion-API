@@ -1,0 +1,11 @@
+{
+	"name": "az_kv",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://valaxy-kv.vault.azure.net/"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "ds_azsql_inc",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "valaxy-training.database.windows.net",
+			"database": "free-sql-db-0140331",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "valaxy-training",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "az_kv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "valaxy-db-password",
+				"secretVersion": "4a027826a64f42d69e6957db9e3031aa"
+			}
+		}
+	}
+}
