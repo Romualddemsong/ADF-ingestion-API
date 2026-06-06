@@ -34,6 +34,9 @@
 		},
 		"ds_azsql_inc_properties_typeProperties_userName": {
 			"value": "valaxy-training"
+		},
+		"git_http_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
 		}
 	}
 }
