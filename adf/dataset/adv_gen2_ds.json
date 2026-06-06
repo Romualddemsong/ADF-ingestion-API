@@ -1,0 +1,38 @@
+{
+  "name": "adv_gen2_ds",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "adv_gen2",
+      "type": "LinkedServiceReference"
+    },
+    "parameters": {
+      "p_sink_folder": {
+        "type": "String"
+      },
+      "p_file_name": {
+        "type": "String"
+      }
+    },
+    "annotations": [],
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobFSLocation",
+        "fileName": {
+          "value": "@dataset().p_file_name",
+          "type": "Expression"
+        },
+        "folderPath": {
+          "value": "@dataset().p_sink_folder",
+          "type": "Expression"
+        },
+        "fileSystem": "bronze"
+      },
+      "columnDelimiter": ",",
+      "escapeChar": "\\",
+      "firstRowAsHeader": true,
+      "quoteChar": "\""
+    },
+    "schema": []
+  }
+}
