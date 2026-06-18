@@ -1,0 +1,12 @@
+{
+	"name": "AzureDatabricks1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-7405604661400293.13.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/47a84265-3cdf-4f69-9841-214c49b00d5b/resourceGroups/valaxy-training-rsg/providers/Microsoft.Databricks/workspaces/valaxy-ade"
+		}
+	}
+}
