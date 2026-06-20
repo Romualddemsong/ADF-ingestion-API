@@ -1,0 +1,13 @@
+{
+	"name": "githubingestion",
+	"properties": {
+		"description": "selectively ingesting Data from github repo with config file that allows for selection of specified files form the repo",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/Romualddemsong",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
