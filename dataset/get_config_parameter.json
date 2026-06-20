@@ -1,0 +1,24 @@
+{
+	"name": "get_config_parameter",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adl_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "git.json",
+				"folderPath": "parameters",
+				"container": "landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
