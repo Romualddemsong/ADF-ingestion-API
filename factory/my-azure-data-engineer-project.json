@@ -1,0 +1,15 @@
+{
+	"name": "my-azure-data-engineer-project",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7c85d55f-30b1-4dff-a502-947a3455950e",
+		"tenantId": "9addabd3-2c57-4f40-bd18-46039725ba75"
+	}
+}
